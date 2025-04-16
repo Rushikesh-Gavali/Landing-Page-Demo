@@ -1,0 +1,116 @@
+.demo-heading {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.demo-form-container {
+  width: 70%;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+.form-row {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.input-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-input {
+  padding: 0.75rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.phone-input {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.country-code {
+  position: absolute;
+  left: 12px;
+  color: #555;
+  font-size: 1rem;
+}
+
+.phone-field {
+  padding-left: 3rem;
+  flex: 1;
+}
+
+.select-field {
+  appearance: none;
+  background-color: #fff;
+}
+
+.checkbox-group {
+  margin-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.checkbox-label {
+  font-size: 0.9rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  line-height: 1.4;
+}
+
+.error {
+  color: #e63946;
+  font-size: 0.85rem;
+  margin-top: 0.25rem;
+  margin-left: 0.25rem;
+  font-weight: 500;
+}
+
+.info-button {
+  background-color: #7f4ff1;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 0.8rem 2rem;
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  width: 70%;
+}
+
+.info-button:hover {
+  background-color: #6938d9;
+}
+
+.strikethrough {
+  text-decoration: line-through;
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .demo-form-container {
+    width: 90%;
+  }
+
+  .form-row {
+    flex-direction: column;
+  }
+}

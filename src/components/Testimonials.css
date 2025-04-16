@@ -1,0 +1,101 @@
+.testimonials-section {
+  background-color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+  width: 100%;
+}
+.span {
+  color: #a100ff;
+}
+
+.testimonials-heading {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.testimonials-subtitle {
+  font-size: 1.8rem;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+
+.testimonials-carousel-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.testimonials-carousel {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding: 10px 40px;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.testimonials-carousel::-webkit-scrollbar {
+  display: none;
+}
+
+.carousel-button {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel-button.left {
+  left: 10px;
+}
+
+.carousel-button.right {
+  right: 10px;
+}
+
+.yoga-title {
+  font-size: 1.7rem;
+  color: #a100ff;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.yoga-heading {
+  font-size: 2.8rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+
+  .carousel-button {
+    width: 30px;
+    height: 30px;
+    font-size: 1.2rem;
+  }
+  .testimonials-heading,
+  .yoga-heading {
+    font-size: 2rem;
+  }
+  .testimonials-title,
+  .yoga-title {
+    font-size: 1.2rem;
+  }
+  .testimonials-subtitle {
+    font-size: 0.9rem;
+  }
+}
+

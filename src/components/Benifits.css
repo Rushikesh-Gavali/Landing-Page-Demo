@@ -1,0 +1,76 @@
+.yoga-benefits-section {
+  padding: 40px 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.span {
+  color: #a100ff;
+}
+
+.benefits-heading {
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.benefits-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.benefit-image-card {
+  width: 20rem;
+  height: 30rem;
+  overflow: hidden;
+}
+
+.benefit-image {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+.benefits-info {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.demo-button {
+  padding: 12px 24px;
+  font-size: 1.1rem;
+  background-color: #a100ff;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+
+.strikethrough {
+  text-decoration: line-through;
+}
+
+@media (max-width: 480px) {
+  .benefits-cards {
+    flex-direction: column;
+  }
+  .benefit-image-card {
+    width: 100%;
+    max-width: 250px;
+    height: 100%;
+  }
+  .benefit-image {
+    height: auto;
+  }
+  .benefits-heading {
+    font-size: 1.8rem;
+  }
+  .benefits-title {
+    font-size: 1.2rem;
+  }
+}
