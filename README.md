@@ -1,5 +1,5 @@
 # Responsive Yoga Landing Page (Demo)
-
+[Live Demo](https://landing-page-demo-rushis-projects-4adf4c2a.vercel.app/)
 ## 📝 Features
 
 ### 📋 Form Functionality
